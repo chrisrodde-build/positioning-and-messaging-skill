@@ -14,22 +14,21 @@ A rigorous B2B positioning and messaging skill that runs a four-stage sequence b
 ## What's in here
 
 ```
-positioning-and-messaging/
-  SKILL.md            the sequence, the gates, the guardrails
-  GETTING-STARTED.md  what inputs you need, and what to do if you have none
-  references/         one file per stage, pulled in only when that stage is active
+SKILL.md            the sequence, the gates, the guardrails
+GETTING-STARTED.md  what inputs you need, and what to do if you have none
+references/         one file per stage, pulled in only when that stage is active
 ```
 
 ## How to get it
 
-- **Download:** click the green **Code** button above → **Download ZIP**, or grab the latest [release](../../releases).
-- **Clone:** `git clone https://github.com/<your-username>/positioning-and-messaging-skill.git`
+- **Download:** click the green **Code** button → **Download ZIP**, or grab the latest [release](../../releases).
+- **Clone:** `git clone https://github.com/chrisrodde-build/positioning-and-messaging-skill.git`
 
 ## How to use it
 
-**Claude Code / Claude (Cowork):** copy the `positioning-and-messaging/` folder into your skills directory — `~/.claude/skills/` on your machine — so you have `~/.claude/skills/positioning-and-messaging/SKILL.md`. Restart your session and it will trigger automatically when you describe positioning or messaging work.
+**Claude Code / Claude (Cowork):** put these files in a folder named `positioning-and-messaging` inside your skills directory, so you end up with `~/.claude/skills/positioning-and-messaging/SKILL.md`. If you downloaded the ZIP, just rename the unzipped folder to `positioning-and-messaging` and drop it in `~/.claude/skills/`. Restart your session and it triggers automatically when you describe positioning or messaging work.
 
-**Cursor or any other capable agent:** point the agent at `positioning-and-messaging/SKILL.md` and let it pull in the reference files as each stage becomes active. `GETTING-STARTED.md` is written for you, the human — read it once before you begin.
+**Cursor or any other capable agent:** point the agent at `SKILL.md` and let it pull in the reference files as each stage becomes active. `GETTING-STARTED.md` is written for you, the human — read it once before you begin.
 
 You don't invoke it by keyword. Just describe the work: *"Help me rebuild our messaging framework,"* *"Our positioning isn't landing,"* or *"Review our homepage against our actual differentiation."*
 
